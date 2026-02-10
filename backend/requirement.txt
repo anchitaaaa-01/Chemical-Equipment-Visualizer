@@ -1,0 +1,6 @@
+Django
+djangorestframework
+pandas
+reportlab
+gunicorn
+whitenoise

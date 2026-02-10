@@ -94,3 +94,13 @@ CORS_ALLOW_ALL_ORIGINS = True
 #        'rest_framework_simplejwt.authentication.JWTAuthentication',
 #    ),
 #}
+
+import os
+
+ALLOWED_HOSTS = ['*']
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
+
