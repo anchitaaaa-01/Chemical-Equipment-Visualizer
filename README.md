@@ -86,9 +86,7 @@ python desktop_app.py
 ---
 
 ## 🎥 Demo Video
-
-(Add your demo video link here)
-
+(https://drive.google.com/file/d/1yNg3UqoWPLkIvC1xZV7VH2UIHW9q3qnK/view?usp=sharing)
 ---
 
 ## 📌 Author
